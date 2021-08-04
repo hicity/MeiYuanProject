@@ -68,4 +68,5 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define REMOVEUSER_OBJ(key)             [SDUserDefaults removeObjectForKey:key]
 
 
+
 #endif /* MYMainMacro_h */

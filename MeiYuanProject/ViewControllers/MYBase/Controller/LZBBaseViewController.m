@@ -25,6 +25,8 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     ///添加自定义导航
     [self.view addSubview:self.navView];
+    
+    NSLog(@"123");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
