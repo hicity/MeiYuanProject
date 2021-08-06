@@ -62,6 +62,9 @@
         model.normalImageName = weakSelf.normalImageArray[idx];
         model.selectImageName = weakSelf.selectedImageArray[idx];
         model.itemBadgeStyle = LZB_TabBarItemBadgeStyleTopRight;
+        if (idx == 1) {
+            model.itemLayoutStyle = LZB_TabBarItemLayoutStylePicture;
+        }
         model.selectColor = [UIColor redColor];
         model.normalColor = KMAINFFFF;
         model.pictureWordsMargin = 0;
@@ -148,14 +151,14 @@
 
 - (NSMutableArray *)normalImageArray {
     if (!_normalImageArray) {
-        _normalImageArray = [[NSMutableArray alloc] initWithObjects:@"tab2", @"tab1_normal", @"ic_tab3_user", nil];
+        _normalImageArray = [[NSMutableArray alloc] initWithObjects:@"home_nor", @"mo_ni_nor", @"stock_nor", nil];
     }
     return _normalImageArray;
 }
 
 - (NSMutableArray *)selectedImageArray {
     if (!_selectedImageArray) {
-        _selectedImageArray = [[NSMutableArray alloc] initWithObjects:@"tab2_s", @"tab1_s", @"ic_tab3_user_s", nil];
+        _selectedImageArray = [[NSMutableArray alloc] initWithObjects:@"home_sel", @"mo_ni_sel", @"stock_sel", nil];
     }
     return _selectedImageArray;
 }
