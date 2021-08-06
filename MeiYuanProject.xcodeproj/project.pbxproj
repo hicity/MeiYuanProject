@@ -40,6 +40,10 @@
 		A414F18526BA9985006550F3 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A414F18426BA9985006550F3 /* Third.storyboard */; };
 		A414F18726BA99BD006550F3 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A414F18626BA99BD006550F3 /* Second.storyboard */; };
 		A414F18926BA99E5006550F3 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A414F18826BA99E5006550F3 /* First.storyboard */; };
+		A432D3DE26BD1271005A04D5 /* BANetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A432D3D626BD1271005A04D5 /* BANetManager.m */; };
+		A432D3DF26BD1271005A04D5 /* BADataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A432D3D726BD1271005A04D5 /* BADataEntity.m */; };
+		A432D3E026BD1271005A04D5 /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A432D3DA26BD1271005A04D5 /* UIImage+CompressImage.m */; };
+		A432D3E126BD1271005A04D5 /* BANetManagerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A432D3DD26BD1271005A04D5 /* BANetManagerCache.m */; };
 		E1123E8D17D147D0BA6891CF /* libPods-MeiYuanProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7924B39BBBF8D810750582DB /* libPods-MeiYuanProject.a */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +135,16 @@
 		A414F18426BA9985006550F3 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		A414F18626BA99BD006550F3 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		A414F18826BA99E5006550F3 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		A432D3D426BD1270005A04D5 /* BANetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetManager.h; sourceTree = "<group>"; };
+		A432D3D526BD1270005A04D5 /* BANetManager_OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetManager_OC.h; sourceTree = "<group>"; };
+		A432D3D626BD1271005A04D5 /* BANetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANetManager.m; sourceTree = "<group>"; };
+		A432D3D726BD1271005A04D5 /* BADataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADataEntity.m; sourceTree = "<group>"; };
+		A432D3D826BD1271005A04D5 /* BADataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADataEntity.h; sourceTree = "<group>"; };
+		A432D3D926BD1271005A04D5 /* BANetManager_Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetManager_Version.h; sourceTree = "<group>"; };
+		A432D3DA26BD1271005A04D5 /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		A432D3DB26BD1271005A04D5 /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		A432D3DC26BD1271005A04D5 /* BANetManagerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BANetManagerCache.h; sourceTree = "<group>"; };
+		A432D3DD26BD1271005A04D5 /* BANetManagerCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BANetManagerCache.m; sourceTree = "<group>"; };
 		A9423670457C589C2518996E /* Pods-MeiYuanProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYuanProject.release.xcconfig"; path = "Target Support Files/Pods-MeiYuanProject/Pods-MeiYuanProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,6 +282,16 @@
 		A414F12126BA7AE8006550F3 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				A432D3D826BD1271005A04D5 /* BADataEntity.h */,
+				A432D3D726BD1271005A04D5 /* BADataEntity.m */,
+				A432D3D526BD1270005A04D5 /* BANetManager_OC.h */,
+				A432D3D926BD1271005A04D5 /* BANetManager_Version.h */,
+				A432D3D426BD1270005A04D5 /* BANetManager.h */,
+				A432D3D626BD1271005A04D5 /* BANetManager.m */,
+				A432D3DC26BD1271005A04D5 /* BANetManagerCache.h */,
+				A432D3DD26BD1271005A04D5 /* BANetManagerCache.m */,
+				A432D3DB26BD1271005A04D5 /* UIImage+CompressImage.h */,
+				A432D3DA26BD1271005A04D5 /* UIImage+CompressImage.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -703,6 +727,8 @@
 			files = (
 				A414F17526BA9511006550F3 /* UINavigationBar+handle.m in Sources */,
 				A414F13726BA8868006550F3 /* LYZCurrentVCHelper.m in Sources */,
+				A432D3DF26BD1271005A04D5 /* BADataEntity.m in Sources */,
+				A432D3DE26BD1271005A04D5 /* BANetManager.m in Sources */,
 				A414F16726BA92B6006550F3 /* LZB_TabBarItem.m in Sources */,
 				A414F17026BA93A6006550F3 /* UINavigationItem+SXFixSpace.m in Sources */,
 				A414F14A26BA8B96006550F3 /* UILabel+AttributedString.m in Sources */,
@@ -719,11 +745,13 @@
 				A414F0F426BA6C3F006550F3 /* MeiYuanProject.xcdatamodeld in Sources */,
 				A414F17D26BA9689006550F3 /* NSObject+LZBExtension.m in Sources */,
 				A414F14926BA8B96006550F3 /* NSObject+Addition.m in Sources */,
+				A432D3E126BD1271005A04D5 /* BANetManagerCache.m in Sources */,
 				A414F13626BA8868006550F3 /* Utils.m in Sources */,
 				A414F17926BA9577006550F3 /* WHGradientHelper.m in Sources */,
 				A414F16226BA92B6006550F3 /* LZBBaseTabBarController.m in Sources */,
 				A414F16626BA92B6006550F3 /* LZB_TabBar.m in Sources */,
 				A414F14826BA8B96006550F3 /* NSMutableAttributedString+Addtion.m in Sources */,
+				A432D3E026BD1271005A04D5 /* UIImage+CompressImage.m in Sources */,
 				A414F16326BA92B6006550F3 /* LZBBaseNavigationController.m in Sources */,
 				A414F17226BA93A6006550F3 /* NSObject+SXRuntime.m in Sources */,
 			);
@@ -903,7 +931,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiYuanProject/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = MeiYuanProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -925,7 +953,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiYuanProject/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = MeiYuanProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
